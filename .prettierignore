@@ -1,0 +1,16 @@
+# Dependencies
+node_modules
+vendor
+
+# Build outputs
+dist
+build
+public/build
+
+# Laravel
+storage
+bootstrap/cache
+
+# Env & lock files
+.env*
+*.lock
