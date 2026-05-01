@@ -9,38 +9,39 @@
 </head>
 <body>
     <header
-        class="backdrop-filter:bg-white/90 sticky top-0 z-50 flex w-full items-center justify-between border-b border-[#e7e7e7] px-8 py-5 backdrop-blur-lg md:grid md:grid-cols-3 md:px-18"
+        class="fixed top-0 z-50 flex w-full items-center justify-between px-8 py-5 transition-all duration-700 md:grid md:grid-cols-3 md:px-18"
+        id="navbar"
     >
         <div class="order-2 md:order-1" role="logo">
-            <a href="" class="font-poppins text-primary text-3xl font-bold tracking-tight">ADKARA</a>
+            <a href="" class="font-poppins text-3xl font-bold tracking-tight text-white">ADKARA</a>
         </div>
         <nav class="hidden md:order-2 md:block md:justify-self-center">
             <ul class="flex md:space-x-8 lg:space-x-10">
                 <li>
                     <a
                         href=""
-                        class="font-poppins text-primary font-normal hover:underline hover:underline-offset-1 md:text-[15px] lg:text-base"
+                        class="font-poppins font-normal text-white hover:underline hover:underline-offset-1 md:text-[15px] lg:text-base"
                         >Men</a
                     >
                 </li>
                 <li>
                     <a
                         href=""
-                        class="font-poppins text-primary font-normal hover:underline hover:underline-offset-1 md:text-[15px] lg:text-base"
+                        class="font-poppins font-normal text-white hover:underline hover:underline-offset-1 md:text-[15px] lg:text-base"
                         >Woman</a
                     >
                 </li>
                 <li>
                     <a
                         href=""
-                        class="font-poppins text-primary font-normal hover:underline hover:underline-offset-1 md:text-[15px] lg:text-base"
+                        class="font-poppins font-normal text-white hover:underline hover:underline-offset-1 md:text-[15px] lg:text-base"
                         >Kids</a
                     >
                 </li>
                 <li>
                     <a
                         href=""
-                        class="font-poppins text-primary font-normal hover:underline hover:underline-offset-1 md:text-[15px] lg:text-base"
+                        class="font-poppins font-normal text-white hover:underline hover:underline-offset-1 md:text-[15px] lg:text-base"
                         >Accessories</a
                     >
                 </li>
@@ -49,17 +50,17 @@
         <div class="order-3 flex space-x-6 md:justify-self-end" role="icon">
             <a href="" aria-label="search">
                 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24">
-                    <path fill="currentColor" d="M15.5 14h-.79l-.28-.27A6.47 6.47 0 0 0 16 9.5A6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5S14 7.01 14 9.5S11.99 14 9.5 14" />
+                    <path fill="#FFFFFF" d="M15.5 14h-.79l-.28-.27A6.47 6.47 0 0 0 16 9.5A6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5S14 7.01 14 9.5S11.99 14 9.5 14" />
                 </svg>
             </a>
             <a href="" aria-label="shopping-cart">
                 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24">
-                    <path fill="currentColor" d="M15.55 13c.75 0 1.41-.41 1.75-1.03l3.58-6.49A.996.996 0 0 0 20.01 4H5.21l-.94-2H1v2h2l3.6 7.59l-1.35 2.44C4.52 15.37 5.48 17 7 17h12v-2H7l1.1-2zM6.16 6h12.15l-2.76 5H8.53zM7 18c-1.1 0-1.99.9-1.99 2S5.9 22 7 22s2-.9 2-2s-.9-2-2-2m10 0c-1.1 0-1.99.9-1.99 2s.89 2 1.99 2s2-.9 2-2s-.9-2-2-2" />
+                    <path fill="#FFFFFF" d="M15.55 13c.75 0 1.41-.41 1.75-1.03l3.58-6.49A.996.996 0 0 0 20.01 4H5.21l-.94-2H1v2h2l3.6 7.59l-1.35 2.44C4.52 15.37 5.48 17 7 17h12v-2H7l1.1-2zM6.16 6h12.15l-2.76 5H8.53zM7 18c-1.1 0-1.99.9-1.99 2S5.9 22 7 22s2-.9 2-2s-.9-2-2-2m10 0c-1.1 0-1.99.9-1.99 2s.89 2 1.99 2s2-.9 2-2s-.9-2-2-2" />
                 </svg>
             </a>
             <a href="" aria-label="login-user">
                 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24">
-                    <path fill="currentColor" d="M12 6c1.1 0 2 .9 2 2s-.9 2-2 2s-2-.9-2-2s.9-2 2-2m0 10c2.7 0 5.8 1.29 6 2H6c.23-.72 3.31-2 6-2m0-12C9.79 4 8 5.79 8 8s1.79 4 4 4s4-1.79 4-4s-1.79-4-4-4m0 10c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4" />
+                    <path fill="#FFFFFF" d="M12 6c1.1 0 2 .9 2 2s-.9 2-2 2s-2-.9-2-2s.9-2 2-2m0 10c2.7 0 5.8 1.29 6 2H6c.23-.72 3.31-2 6-2m0-12C9.79 4 8 5.79 8 8s1.79 4 4 4s4-1.79 4-4s-1.79-4-4-4m0 10c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4" />
                 </svg>
             </a>
         </div>
@@ -103,29 +104,31 @@
             </ul>
         </div>
     </div>
-    {{-- <main class="mb-40">
+    <main class="mb-200">
         <section
-            class="relative flex h-180 items-center justify-center bg-linear-to-r from-[#1C1818] from-0% via-[#3C3B3B] via-65% to-[#4E4E4E] to-100%"
+            class="relative flex h-176 w-full items-center justify-center bg-linear-to-r from-[#1C1818] from-0% via-[#3C3B3B] via-65% to-[#4E4E4E] to-100% px-8 sm:h-160"
         >
             <div class="absolute flex h-full items-end">
-                <img src="/images/hero-banner.webp" alt="Hero Banner" class="w-300" />
+                <img src="/images/hero-banner.webp" alt="Hero Banner" class="w-94 sm:w-84 lg:w-88" />
             </div>
-            <div class="absolute grid w-160 justify-items-center gap-y-6">
-                <h1 class="font-poppins text-center text-6xl leading-19 font-normal text-white">
+            <div class="absolute grid w-90 justify-items-center gap-y-6 sm:w-140 md:w-160">
+                <h1
+                    class="font-poppins flow-root text-center text-4xl leading-12 font-normal tracking-normal text-white sm:text-[44px] sm:leading-14 md:text-5xl md:leading-16 lg:text-[52px]"
+                >
                     TIMELESS FASHION FOR EVERY MOMENT
                 </h1>
                 <button
-                    class="bg-primary font-poppins cursor-pointer rounded-lg bg-linear-to-r from-[#181818] from-0% to-[#2F2F2F] to-100% px-9 py-3 text-base font-normal text-white shadow-[-4px_4px_16px_0px_rgba(155,155,155,1)]"
+                    class="bg-primary font-poppins cursor-pointer rounded-lg bg-linear-to-r from-[#181818] from-0% to-[#2F2F2F] to-100% px-6 py-3 text-sm font-normal text-white shadow-[-4px_4px_16px_0px_rgba(155,155,155,1)]"
                 >
                     Shop Now
                 </button>
             </div>
         </section>
-        <div class="mt-25 justify-items-center px-18">
+        {{-- <div class="mt-25 justify-items-center px-18">
             <h2 class="font-poppins text-primary mb-3 text-4xl font-semibold">Explore Our Categories</h2>
             <p class="font-poppins text-primary w-162 text-center text-lg leading-7 font-normal">Choose from a variety of categories and discover outfits that match your style and daily activities</p>
-        </div>
-        <section class="mt-18 px-18">
+        </div> --}}
+        {{-- <section class="mt-18 px-18">
             <ul class="flex gap-x-3">
                 <li>
                     <button
@@ -170,8 +173,8 @@
                     </button>
                 </li>
             </ul>
-        </section>
-        <section class="mt-8 grid grid-cols-4 gap-x-8 gap-y-10 px-18">
+        </section> --}}
+        {{-- <section class="mt-8 grid grid-cols-4 gap-x-8 gap-y-10 px-18">
             <div class="grid w-65 gap-y-5">
                 <div class="bg-card relative flex h-85 w-full items-center justify-center rounded-3xl">
                     <img src="/images/Classic Cotton T-Shirt.webp" alt="Product 1" class="w-56" />
@@ -444,15 +447,15 @@
                     </div>
                 </div>
             </div>
-        </section>
-        <div class="mt-14 flex justify-center px-18">
+        </section> --}}
+        {{-- <div class="mt-14 flex justify-center px-18">
             <button
                 class="font-poppins bg-primary cursor-pointer rounded-4xl px-8 py-3 text-base font-normal text-white"
             >
                 Load More
             </button>
-        </div>
-        <div class="mt-30 px-18">
+        </div> --}}
+        {{-- <div class="mt-30 px-18">
             <div class="rounded-[20px] bg-[#CECBB8] px-18 py-9">
                 <div class="grid justify-items-start gap-y-8">
                     <div class="grid w-89 gap-y-3">
@@ -472,12 +475,12 @@
             <div class="-mt-75 flex h-75 items-end justify-end px-18">
                 <img src="/images/Image Discount.webp" alt="" class="w-57" />
             </div>
-        </div>
-        <div class="mt-30 px-18">
+        </div> --}}
+        {{-- <div class="mt-30 px-18">
             <h2 class="font-poppins text-primary mb-3 text-4xl font-semibold">Customer Reviews</h2>
             <p class="font-poppins text-primary w-108 text-lg leading-7 font-normal">Our customer share their experiences with our clothing collection</p>
-        </div>
-        <section class="mt-11 px-18">
+        </div> --}}
+        {{-- <section class="mt-11 px-18">
             <div class="grid grid-cols-3 gap-x-7">
                 <div class="rounded-[20px] border border-[#D9D9D9] px-10 py-10">
                     <div class="grid gap-y-6">
@@ -534,12 +537,12 @@
                     </div>
                 </div>
             </div>
-        </section>
-        <div class="mt-40 justify-items-center px-18">
+        </section> --}}
+        {{-- <div class="mt-40 justify-items-center px-18">
             <h2 class="font-poppins text-primary mb-3 text-4xl font-semibold">Frequently Asked Questions</h2>
             <p class="font-poppins text-primary w-174 text-center text-lg leading-7 font-normal">Find answer the most common questions about our products and services</p>
-        </div>
-        <div class="mt-10 grid justify-items-center gap-y-5">
+        </div> --}}
+        {{-- <div class="mt-10 grid justify-items-center gap-y-5">
             <div class="w-236 rounded-[20px] bg-white px-11 py-6 shadow-[1px_2px_8px_0px_rgba(97,97,97,0.25)]">
                 <div class="flex justify-between">
                     <h5 class="font-poppins text-primary text-lg font-medium">What sizes do you offer?</h5>
@@ -581,9 +584,9 @@
                     </svg>
                 </div>
             </div>
-        </div>
+        </div> --}}
     </main>
-    <footer class="bg-footer">
+    {{-- <footer class="bg-footer">
         <div class="flex justify-between px-18 py-15">
             <div class="grid gap-y-12">
                 <div class="grid gap-y-3">
@@ -648,6 +651,16 @@
 
         buttonToggle.addEventListener('click', function () {
             mobileMenu.classList.toggle('hidden');
+        });
+
+        const navbar = document.getElementById('navbar');
+
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 30) {
+                navbar.classList.add('bg-footer', 'shadow-lg');
+            } else {
+                navbar.classList.remove('bg-footer', 'shadow-lg');
+            }
         });
     </script>
 </body>
