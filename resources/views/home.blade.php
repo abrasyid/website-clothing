@@ -8,12 +8,13 @@
     <title>Website Clothing</title>
 </head>
 <body>
+    {{-- Navbar --}}
     <header
-        class="fixed top-0 z-50 flex w-full items-center justify-between px-8 py-5 transition-all duration-700 md:grid md:grid-cols-3 md:px-18"
+        class="fixed top-0 z-50 flex w-full items-center justify-between px-4 py-5 transition-all duration-700 md:grid md:grid-cols-3 md:px-18"
         id="navbar"
     >
         <div class="order-2 md:order-1" role="logo">
-            <a href="" class="font-poppins text-3xl font-bold tracking-tight text-white">ADKARA</a>
+            <a href="" class="font-poppins text-2xl font-bold tracking-tight text-white sm:text-3xl">ADKARA</a>
         </div>
         <nav class="hidden md:order-2 md:block md:justify-self-center">
             <ul class="flex md:space-x-8 lg:space-x-10">
@@ -66,47 +67,52 @@
         </div>
         <div class="buttonToggle order-1 block md:hidden">
             <button
-                class="rounded-lg bg-gray-100 p-2 text-slate-900 transition hover:bg-gray-100/75 hover:text-slate-600/75"
+                class="rounded-lg bg-white px-3 py-2 text-slate-900 transition hover:bg-gray-100 hover:text-slate-800"
             >
-                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-10" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                     <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16"></path>
                 </svg>
             </button>
         </div>
     </header>
-    <div class="mobileMenu hidden">
-        <div class="px-8">
-            <ul class="space-y-1 rounded-lg shadow-sm">
-                <li>
-                    <a
-                        href="#"
-                        class="font-poppins text-primary block rounded-t-lg px-4 py-2 text-sm font-medium hover:bg-gray-100"
-                        >Men</a
-                    >
-                </li>
-                <li>
-                    <a href="#" class="font-poppins text-primary block px-4 py-2 text-sm font-medium hover:bg-gray-100"
-                        >Woman</a
-                    >
-                </li>
-                <li>
-                    <a href="#" class="font-poppins text-primary block px-4 py-2 text-sm font-medium hover:bg-gray-100"
-                        >Kids</a
-                    >
-                </li>
-                <li>
-                    <a
-                        href="#"
-                        class="font-poppins text-primary block rounded-b-lg px-4 py-2 text-sm font-medium hover:bg-gray-100"
-                        >Accessories</a
-                    >
-                </li>
-            </ul>
-        </div>
+    {{-- Navbar End --}}
+
+    {{-- Mobile Menu --}}
+    <div class="mobileMenu fixed top-19 right-4 left-4 z-60 hidden rounded-lg bg-white">
+        <ul class="space-y-1 rounded-lg shadow-sm">
+            <li>
+                <a
+                    href="#"
+                    class="font-poppins text-primary block rounded-t-lg px-4 py-2 text-sm font-medium hover:bg-gray-100"
+                    >Men</a
+                >
+            </li>
+            <li>
+                <a href="#" class="font-poppins text-primary block px-4 py-2 text-sm font-medium hover:bg-gray-100"
+                    >Woman</a
+                >
+            </li>
+            <li>
+                <a href="#" class="font-poppins text-primary block px-4 py-2 text-sm font-medium hover:bg-gray-100"
+                    >Kids</a
+                >
+            </li>
+            <li>
+                <a
+                    href="#"
+                    class="font-poppins text-primary block rounded-b-lg px-4 py-2 text-sm font-medium hover:bg-gray-100"
+                    >Accessories</a
+                >
+            </li>
+        </ul>
     </div>
+    {{-- Mobile Menu End --}}
+
+    {{-- Main --}}
     <main class="mb-200">
+        {{-- Hero Bannner --}}
         <section
-            class="relative flex h-176 w-full items-center justify-center bg-linear-to-r from-[#1C1818] from-0% via-[#3C3B3B] via-65% to-[#4E4E4E] to-100% px-8 sm:h-160"
+            class="relative flex h-176 w-full items-center justify-center bg-linear-to-r from-[#1C1818] from-0% via-[#3C3B3B] via-65% to-[#4E4E4E] to-100% px-4 sm:h-160"
         >
             <div class="absolute flex h-full items-end">
                 <img src="/images/hero-banner.webp" alt="Hero Banner" class="w-94 sm:w-84 lg:w-88" />
@@ -124,62 +130,73 @@
                 </button>
             </div>
         </section>
-        {{-- <div class="mt-25 justify-items-center px-18">
-            <h2 class="font-poppins text-primary mb-3 text-4xl font-semibold">Explore Our Categories</h2>
-            <p class="font-poppins text-primary w-162 text-center text-lg leading-7 font-normal">Choose from a variety of categories and discover outfits that match your style and daily activities</p>
-        </div> --}}
-        {{-- <section class="mt-18 px-18">
-            <ul class="flex gap-x-3">
+        {{-- Hero Banner End --}}
+
+        {{-- Categories Product --}}
+        <div class="mt-20 justify-items-start px-4 sm:mt-25 sm:justify-items-center md:px-18">
+            <h2
+                class="font-poppins text-primary mb-1 text-xl font-semibold sm:text-[28px] md:text-[32px] lg:mb-3 lg:text-4xl"
+            >
+                Explore Our Categories
+            </h2>
+            <p class="font-poppins text-primary text-start text-sm font-normal sm:w-140 sm:text-center sm:text-base md:leading-6 lg:w-162 lg:text-lg lg:leading-7">Choose from a variety of categories and discover outfits that match your style and daily activities</p>
+        </div>
+        <section class="mt-14 px-4 sm:mt-18 md:px-18">
+            <ul class="flex flex-wrap gap-x-2 gap-y-2">
                 <li>
                     <button
-                        class="font-poppins bg-primary cursor-pointer rounded-4xl px-6 py-2 text-base font-light text-white"
+                        class="font-poppins bg-primary cursor-pointer rounded-4xl px-3 py-2 text-xs font-light text-white sm:px-4 sm:text-sm md:px-6 md:py-2 md:text-base"
                     >
                         What's New
                     </button>
                 </li>
                 <li>
                     <button
-                        class="font-poppins text-primary cursor-pointer rounded-4xl bg-[#E7E7E7] px-6 py-2 text-base font-light"
+                        class="font-poppins text-primary cursor-pointer rounded-4xl bg-[#E7E7E7] px-3 py-2 text-xs font-light sm:px-4 sm:text-sm md:px-6 md:py-2 md:text-base"
                     >
                         T'shirts
                     </button>
                 </li>
                 <li>
                     <button
-                        class="font-poppins text-primary cursor-pointer rounded-4xl bg-[#E7E7E7] px-6 py-2 text-base font-light"
+                        class="font-poppins text-primary cursor-pointer rounded-4xl bg-[#E7E7E7] px-3 py-2 text-xs font-light sm:px-4 sm:text-sm md:px-6 md:py-2 md:text-base"
                     >
                         Shirts
                     </button>
                 </li>
                 <li>
                     <button
-                        class="font-poppins text-primary cursor-pointer rounded-4xl bg-[#E7E7E7] px-6 py-2 text-base font-light"
+                        class="font-poppins text-primary cursor-pointer rounded-4xl bg-[#E7E7E7] px-3 py-2 text-xs font-light sm:px-4 sm:text-sm md:px-6 md:py-2 md:text-base"
                     >
                         Outerwear
                     </button>
                 </li>
                 <li>
                     <button
-                        class="font-poppins text-primary cursor-pointer rounded-4xl bg-[#E7E7E7] px-6 py-2 text-base font-light"
+                        class="font-poppins text-primary cursor-pointer rounded-4xl bg-[#E7E7E7] px-3 py-2 text-xs font-light sm:px-4 sm:text-sm md:px-6 md:py-2 md:text-base"
                     >
                         Trousers
                     </button>
                 </li>
                 <li>
                     <button
-                        class="font-poppins text-primary cursor-pointer rounded-4xl bg-[#E7E7E7] px-6 py-2 text-base font-light"
+                        class="font-poppins text-primary cursor-pointer rounded-4xl bg-[#E7E7E7] px-3 py-2 text-xs font-light sm:px-4 sm:text-sm md:px-6 md:py-2 md:text-base"
                     >
                         Chinos
                     </button>
                 </li>
             </ul>
-        </section> --}}
-        {{-- <section class="mt-8 grid grid-cols-4 gap-x-8 gap-y-10 px-18">
-            <div class="grid w-65 gap-y-5">
-                <div class="bg-card relative flex h-85 w-full items-center justify-center rounded-3xl">
-                    <img src="/images/Classic Cotton T-Shirt.webp" alt="Product 1" class="w-56" />
+        </section>
+        <section class="mx-auto mt-8 grid grid-cols-2 gap-x-4 gap-y-6 px-4 md:grid-cols-3 md:px-18 lg:grid-cols-4">
+            <div class="grid content-start gap-y-5">
+                <div class="bg-card relative flex h-76 w-full items-center justify-center rounded-2xl md:h-85">
+                    <img
+                        src="/images/Classic Cotton T-Shirt.webp"
+                        alt="Product 1"
+                        class="h-64 w-56 object-scale-down md:h-72"
+                    />
                     <div class="absolute flex w-full justify-end self-start pt-3 pr-3">
-                        <div class="outline-primary border-primary grid h-6 w-6 place-items-center rounded-4xl border">
+                        <div class="border-primary grid h-6 w-6 place-items-center rounded-4xl border">
                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24">
                                 <path fill="#F43434" stroke="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="none" d="M7.75 3.5C5.127 3.5 3 5.76 3 8.547C3 14.125 12 20.5 12 20.5s9-6.375 9-11.953C21 5.094 18.873 3.5 16.25 3.5c-1.86 0-3.47 1.136-4.25 2.79c-.78-1.654-2.39-2.79-4.25-2.79" />
                             </svg>
@@ -188,7 +205,7 @@
                 </div>
                 <div class="grid gap-y-2">
                     <div class="grid gap-y-1">
-                        <h5 class="font-poppins text-primary text-lg font-medium">Classic Cotton T'shirt</h5>
+                        <h5 class="font-poppins text-primary text-base font-medium">Classic Cotton T'shirt</h5>
                         <div class="flex items-center gap-x-1">
                             <div class="flex items-center gap-x-0.5">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
@@ -199,9 +216,9 @@
                             <span class="font-poppins text-primary text-sm font-normal">(120)</span>
                         </div>
                     </div>
-                    <div class="flex items-center gap-x-3">
-                        <p class="font-poppins text-primary text-lg font-medium">Rp159.000</p>
-                        <p class="font-poppins text-base font-normal text-[#9A9A9A]">Rp199.000</p>
+                    <div class="flex flex-wrap items-center gap-x-3 gap-y-1">
+                        <p class="font-poppins text-primary text-base font-medium">Rp159.000</p>
+                        <p class="font-poppins text-sm font-normal text-[#9A9A9A] line-through decoration-1">Rp199.000</p>
                         <span
                             class="font-poppins rounded-4xl bg-[#FFE6E6] px-2 py-0.5 text-[10px] font-normal text-[#C82424]"
                             >-20%</span
@@ -209,11 +226,15 @@
                     </div>
                 </div>
             </div>
-            <div class="grid w-65 gap-y-5">
-                <div class="bg-card relative flex h-85 w-full items-center justify-center rounded-3xl">
-                    <img src="/images/Minimalis T-Shirt.webp" alt="Product 1" class="w-56" />
+            <div class="grid content-start gap-y-5">
+                <div class="bg-card relative flex h-76 w-full items-center justify-center rounded-2xl md:h-85">
+                    <img
+                        src="/images/Minimalis T-Shirt.webp"
+                        alt="Product 1"
+                        class="h-64 w-56 object-scale-down md:h-72"
+                    />
                     <div class="absolute flex w-full justify-end self-start pt-3 pr-3">
-                        <div class="outline-primary border-primary grid h-6 w-6 place-items-center rounded-4xl border">
+                        <div class="border-primary grid h-6 w-6 place-items-center rounded-4xl border">
                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24">
                                 <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M7.75 3.5C5.127 3.5 3 5.76 3 8.547C3 14.125 12 20.5 12 20.5s9-6.375 9-11.953C21 5.094 18.873 3.5 16.25 3.5c-1.86 0-3.47 1.136-4.25 2.79c-.78-1.654-2.39-2.79-4.25-2.79" />
                             </svg>
@@ -222,7 +243,7 @@
                 </div>
                 <div class="grid gap-y-2">
                     <div class="grid gap-y-1">
-                        <h5 class="font-poppins text-primary text-lg font-medium">Minimalis T-Shirt</h5>
+                        <h5 class="font-poppins text-primary text-base font-medium">Minimalis T-Shirt</h5>
                         <div class="flex items-center gap-x-1">
                             <div class="flex items-center gap-x-0.5">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
@@ -233,9 +254,9 @@
                             <span class="font-poppins text-primary text-sm font-normal">(120)</span>
                         </div>
                     </div>
-                    <div class="flex items-center gap-x-3">
-                        <p class="font-poppins text-primary text-lg font-medium">Rp159.000</p>
-                        <p class="font-poppins text-base font-normal text-[#9A9A9A]">Rp199.000</p>
+                    <div class="flex flex-wrap items-center gap-x-3 gap-y-1">
+                        <p class="font-poppins text-primary text-base font-medium">Rp159.000</p>
+                        <p class="font-poppins text-sm font-normal text-[#9A9A9A] line-through decoration-1">Rp199.000</p>
                         <span
                             class="font-poppins rounded-4xl bg-[#FFE6E6] px-2 py-0.5 text-[10px] font-normal text-[#C82424]"
                             >-20%</span
@@ -243,11 +264,15 @@
                     </div>
                 </div>
             </div>
-            <div class="grid w-65 gap-y-5">
-                <div class="bg-card relative flex h-85 w-full items-center justify-center rounded-3xl">
-                    <img src="/images/Urban Street T-Shirt.webp" alt="Product 1" class="w-52" />
+            <div class="grid content-start gap-y-5">
+                <div class="bg-card relative flex h-76 w-full items-center justify-center rounded-2xl md:h-85">
+                    <img
+                        src="/images/Urban Street T-Shirt.webp"
+                        alt="Product 1"
+                        class="h-64 w-56 object-scale-down md:h-72"
+                    />
                     <div class="absolute flex w-full justify-end self-start pt-3 pr-3">
-                        <div class="outline-primary border-primary grid h-6 w-6 place-items-center rounded-4xl border">
+                        <div class="border-primary grid h-6 w-6 place-items-center rounded-4xl border">
                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24">
                                 <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M7.75 3.5C5.127 3.5 3 5.76 3 8.547C3 14.125 12 20.5 12 20.5s9-6.375 9-11.953C21 5.094 18.873 3.5 16.25 3.5c-1.86 0-3.47 1.136-4.25 2.79c-.78-1.654-2.39-2.79-4.25-2.79" />
                             </svg>
@@ -256,7 +281,7 @@
                 </div>
                 <div class="grid gap-y-2">
                     <div class="grid gap-y-1">
-                        <h5 class="font-poppins text-primary text-lg font-medium">Urban Street T-Shirt</h5>
+                        <h5 class="font-poppins text-primary text-base font-medium">Urban Street T-Shirt</h5>
                         <div class="flex items-center gap-x-1">
                             <div class="flex items-center gap-x-0.5">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
@@ -267,9 +292,9 @@
                             <span class="font-poppins text-primary text-sm font-normal">(120)</span>
                         </div>
                     </div>
-                    <div class="flex items-center gap-x-3">
-                        <p class="font-poppins text-primary text-lg font-medium">Rp159.000</p>
-                        <p class="font-poppins text-base font-normal text-[#9A9A9A]">Rp199.000</p>
+                    <div class="flex flex-wrap items-center gap-x-3 gap-y-1">
+                        <p class="font-poppins text-primary text-base font-medium">Rp159.000</p>
+                        <p class="font-poppins text-sm font-normal text-[#9A9A9A] line-through decoration-1">Rp199.000</p>
                         <span
                             class="font-poppins rounded-4xl bg-[#FFE6E6] px-2 py-0.5 text-[10px] font-normal text-[#C82424]"
                             >-20%</span
@@ -277,11 +302,15 @@
                     </div>
                 </div>
             </div>
-            <div class="grid w-65 gap-y-5">
-                <div class="bg-card relative flex h-85 w-full items-center justify-center rounded-3xl">
-                    <img src="/images/Modern Bomber Jacket.webp" alt="Product 1" class="w-48" />
+            <div class="grid content-start gap-y-5">
+                <div class="bg-card relative flex h-76 w-full items-center justify-center rounded-2xl md:h-85">
+                    <img
+                        src="/images/Modern Bomber Jacket.webp"
+                        alt="Product 1"
+                        class="h-64 w-56 object-scale-down md:h-72"
+                    />
                     <div class="absolute flex w-full justify-end self-start pt-3 pr-3">
-                        <div class="outline-primary border-primary grid h-6 w-6 place-items-center rounded-4xl border">
+                        <div class="border-primary grid h-6 w-6 place-items-center rounded-4xl border">
                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24">
                                 <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M7.75 3.5C5.127 3.5 3 5.76 3 8.547C3 14.125 12 20.5 12 20.5s9-6.375 9-11.953C21 5.094 18.873 3.5 16.25 3.5c-1.86 0-3.47 1.136-4.25 2.79c-.78-1.654-2.39-2.79-4.25-2.79" />
                             </svg>
@@ -290,7 +319,7 @@
                 </div>
                 <div class="grid gap-y-2">
                     <div class="grid gap-y-1">
-                        <h5 class="font-poppins text-primary text-lg font-medium">Modern Bomber Jacket</h5>
+                        <h5 class="font-poppins text-primary text-base font-medium">Modern Bomber Jacket</h5>
                         <div class="flex items-center gap-x-1">
                             <div class="flex items-center gap-x-0.5">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
@@ -301,9 +330,9 @@
                             <span class="font-poppins text-primary text-sm font-normal">(120)</span>
                         </div>
                     </div>
-                    <div class="flex items-center gap-x-3">
-                        <p class="font-poppins text-primary text-lg font-medium">Rp159.000</p>
-                        <p class="font-poppins text-base font-normal text-[#9A9A9A]">Rp199.000</p>
+                    <div class="flex flex-wrap items-center gap-x-3 gap-y-1">
+                        <p class="font-poppins text-primary text-base font-medium">Rp159.000</p>
+                        <p class="font-poppins text-sm font-normal text-[#9A9A9A] line-through decoration-1">Rp199.000</p>
                         <span
                             class="font-poppins rounded-4xl bg-[#FFE6E6] px-2 py-0.5 text-[10px] font-normal text-[#C82424]"
                             >-20%</span
@@ -311,11 +340,15 @@
                     </div>
                 </div>
             </div>
-            <div class="grid w-65 gap-y-5">
-                <div class="bg-card relative flex h-85 w-full items-center justify-center rounded-3xl">
-                    <img src="/images/Casual Denim Jacket.webp" alt="Product 1" class="w-44" />
+            <div class="grid content-start gap-y-5">
+                <div class="bg-card relative flex h-76 w-full items-center justify-center rounded-2xl md:h-85">
+                    <img
+                        src="/images/Casual Denim Jacket.webp"
+                        alt="Product 1"
+                        class="h-64 w-56 object-scale-down md:h-72"
+                    />
                     <div class="absolute flex w-full justify-end self-start pt-3 pr-3">
-                        <div class="outline-primary border-primary grid h-6 w-6 place-items-center rounded-4xl border">
+                        <div class="border-primary grid h-6 w-6 place-items-center rounded-4xl border">
                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24">
                                 <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M7.75 3.5C5.127 3.5 3 5.76 3 8.547C3 14.125 12 20.5 12 20.5s9-6.375 9-11.953C21 5.094 18.873 3.5 16.25 3.5c-1.86 0-3.47 1.136-4.25 2.79c-.78-1.654-2.39-2.79-4.25-2.79" />
                             </svg>
@@ -324,7 +357,7 @@
                 </div>
                 <div class="grid gap-y-2">
                     <div class="grid gap-y-1">
-                        <h5 class="font-poppins text-primary text-lg font-medium">Casual Denim Jacket</h5>
+                        <h5 class="font-poppins text-primary text-base font-medium">Casual Denim Jacket</h5>
                         <div class="flex items-center gap-x-1">
                             <div class="flex items-center gap-x-0.5">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
@@ -335,9 +368,9 @@
                             <span class="font-poppins text-primary text-sm font-normal">(120)</span>
                         </div>
                     </div>
-                    <div class="flex items-center gap-x-3">
-                        <p class="font-poppins text-primary text-lg font-medium">Rp159.000</p>
-                        <p class="font-poppins text-base font-normal text-[#9A9A9A]">Rp199.000</p>
+                    <div class="flex flex-wrap items-center gap-x-3 gap-y-1">
+                        <p class="font-poppins text-primary text-base font-medium">Rp159.000</p>
+                        <p class="font-poppins text-sm font-normal text-[#9A9A9A] line-through decoration-1">Rp199.000</p>
                         <span
                             class="font-poppins rounded-4xl bg-[#FFE6E6] px-2 py-0.5 text-[10px] font-normal text-[#C82424]"
                             >-20%</span
@@ -345,11 +378,15 @@
                     </div>
                 </div>
             </div>
-            <div class="grid w-65 gap-y-5">
-                <div class="bg-card relative flex h-85 w-full items-center justify-center rounded-3xl">
-                    <img src="/images/Slim Fit Blue Jeans.webp" alt="Product 1" class="w-32" />
+            <div class="grid content-start gap-y-5">
+                <div class="bg-card relative flex h-76 w-full items-center justify-center rounded-2xl md:h-85">
+                    <img
+                        src="/images/Slim Fit Blue Jeans.webp"
+                        alt="Product 1"
+                        class="h-64 w-56 object-scale-down md:h-72"
+                    />
                     <div class="absolute flex w-full justify-end self-start pt-3 pr-3">
-                        <div class="outline-primary border-primary grid h-6 w-6 place-items-center rounded-4xl border">
+                        <div class="border-primary grid h-6 w-6 place-items-center rounded-4xl border">
                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24">
                                 <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M7.75 3.5C5.127 3.5 3 5.76 3 8.547C3 14.125 12 20.5 12 20.5s9-6.375 9-11.953C21 5.094 18.873 3.5 16.25 3.5c-1.86 0-3.47 1.136-4.25 2.79c-.78-1.654-2.39-2.79-4.25-2.79" />
                             </svg>
@@ -358,7 +395,7 @@
                 </div>
                 <div class="grid gap-y-2">
                     <div class="grid gap-y-1">
-                        <h5 class="font-poppins text-primary text-lg font-medium">Slim Fit Blue Jeans</h5>
+                        <h5 class="font-poppins text-primary text-base font-medium">Slim Fit Blue Jeans</h5>
                         <div class="flex items-center gap-x-1">
                             <div class="flex items-center gap-x-0.5">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
@@ -369,9 +406,9 @@
                             <span class="font-poppins text-primary text-sm font-normal">(120)</span>
                         </div>
                     </div>
-                    <div class="flex items-center gap-x-3">
-                        <p class="font-poppins text-primary text-lg font-medium">Rp159.000</p>
-                        <p class="font-poppins text-base font-normal text-[#9A9A9A]">Rp199.000</p>
+                    <div class="flex flex-wrap items-center gap-x-3 gap-y-1">
+                        <p class="font-poppins text-primary text-base font-medium">Rp159.000</p>
+                        <p class="font-poppins text-sm font-normal text-[#9A9A9A] line-through decoration-1">Rp199.000</p>
                         <span
                             class="font-poppins rounded-4xl bg-[#FFE6E6] px-2 py-0.5 text-[10px] font-normal text-[#C82424]"
                             >-20%</span
@@ -379,11 +416,15 @@
                     </div>
                 </div>
             </div>
-            <div class="grid w-65 gap-y-5">
-                <div class="bg-card relative flex h-85 w-full items-center justify-center rounded-3xl">
-                    <img src="/images/Vintage Denim Jeans.webp" alt="Product 1" class="w-32" />
+            <div class="grid content-start gap-y-5">
+                <div class="bg-card relative flex h-76 w-full items-center justify-center rounded-2xl md:h-85">
+                    <img
+                        src="/images/Vintage Denim Jeans.webp"
+                        alt="Product 1"
+                        class="h-64 w-56 object-scale-down md:h-72"
+                    />
                     <div class="absolute flex w-full justify-end self-start pt-3 pr-3">
-                        <div class="outline-primary border-primary grid h-6 w-6 place-items-center rounded-4xl border">
+                        <div class="border-primary grid h-6 w-6 place-items-center rounded-4xl border">
                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24">
                                 <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M7.75 3.5C5.127 3.5 3 5.76 3 8.547C3 14.125 12 20.5 12 20.5s9-6.375 9-11.953C21 5.094 18.873 3.5 16.25 3.5c-1.86 0-3.47 1.136-4.25 2.79c-.78-1.654-2.39-2.79-4.25-2.79" />
                             </svg>
@@ -392,7 +433,7 @@
                 </div>
                 <div class="grid gap-y-2">
                     <div class="grid gap-y-1">
-                        <h5 class="font-poppins text-primary text-lg font-medium">Vintage Denim Jeans</h5>
+                        <h5 class="font-poppins text-primary text-base font-medium">Vintage Denim Jeans</h5>
                         <div class="flex items-center gap-x-1">
                             <div class="flex items-center gap-x-0.5">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
@@ -403,9 +444,9 @@
                             <span class="font-poppins text-primary text-sm font-normal">(120)</span>
                         </div>
                     </div>
-                    <div class="flex items-center gap-x-3">
-                        <p class="font-poppins text-primary text-lg font-medium">Rp159.000</p>
-                        <p class="font-poppins text-base font-normal text-[#9A9A9A]">Rp199.000</p>
+                    <div class="flex flex-wrap items-center gap-x-3 gap-y-1">
+                        <p class="font-poppins text-primary text-base font-medium">Rp159.000</p>
+                        <p class="font-poppins text-sm font-normal text-[#9A9A9A] line-through decoration-1">Rp199.000</p>
                         <span
                             class="font-poppins rounded-4xl bg-[#FFE6E6] px-2 py-0.5 text-[10px] font-normal text-[#C82424]"
                             >-20%</span
@@ -413,11 +454,15 @@
                     </div>
                 </div>
             </div>
-            <div class="grid w-65 gap-y-5">
-                <div class="bg-card relative flex h-85 w-full items-center justify-center rounded-3xl">
-                    <img src="/images/Classic Baseball Cap.webp" alt="Product 1" class="w-48" />
+            <div class="grid content-start gap-y-5">
+                <div class="bg-card relative flex h-76 w-full items-center justify-center rounded-2xl md:h-85">
+                    <img
+                        src="/images/Classic Baseball Cap.webp"
+                        alt="Product 1"
+                        class="h-64 w-56 object-scale-down md:h-72"
+                    />
                     <div class="absolute flex w-full justify-end self-start pt-3 pr-3">
-                        <div class="outline-primary border-primary grid h-6 w-6 place-items-center rounded-4xl border">
+                        <div class="border-primary grid h-6 w-6 place-items-center rounded-4xl border">
                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24">
                                 <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M7.75 3.5C5.127 3.5 3 5.76 3 8.547C3 14.125 12 20.5 12 20.5s9-6.375 9-11.953C21 5.094 18.873 3.5 16.25 3.5c-1.86 0-3.47 1.136-4.25 2.79c-.78-1.654-2.39-2.79-4.25-2.79" />
                             </svg>
@@ -426,7 +471,7 @@
                 </div>
                 <div class="grid gap-y-2">
                     <div class="grid gap-y-1">
-                        <h5 class="font-poppins text-primary text-lg font-medium">Classic Baseball Cap</h5>
+                        <h5 class="font-poppins text-primary text-base font-medium">Classic Baseball Cap</h5>
                         <div class="flex items-center gap-x-1">
                             <div class="flex items-center gap-x-0.5">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
@@ -437,9 +482,9 @@
                             <span class="font-poppins text-primary text-sm font-normal">(120)</span>
                         </div>
                     </div>
-                    <div class="flex items-center gap-x-3">
-                        <p class="font-poppins text-primary text-lg font-medium">Rp159.000</p>
-                        <p class="font-poppins text-base font-normal text-[#9A9A9A]">Rp199.000</p>
+                    <div class="flex flex-wrap items-center gap-x-3 gap-y-1">
+                        <p class="font-poppins text-primary text-base font-medium">Rp159.000</p>
+                        <p class="font-poppins text-sm font-normal text-[#9A9A9A] line-through decoration-1">Rp199.000</p>
                         <span
                             class="font-poppins rounded-4xl bg-[#FFE6E6] px-2 py-0.5 text-[10px] font-normal text-[#C82424]"
                             >-20%</span
@@ -447,7 +492,9 @@
                     </div>
                 </div>
             </div>
-        </section> --}}
+        </section>
+        {{-- Categories Product End --}}
+
         {{-- <div class="mt-14 flex justify-center px-18">
             <button
                 class="font-poppins bg-primary cursor-pointer rounded-4xl px-8 py-3 text-base font-normal text-white"
@@ -586,6 +633,9 @@
             </div>
         </div> --}}
     </main>
+    {{-- Main End --}}
+
+    {{-- Footer Start --}}
     {{-- <footer class="bg-footer">
         <div class="flex justify-between px-18 py-15">
             <div class="grid gap-y-12">
@@ -644,6 +694,7 @@
             <p class="font-poppins text-base font-normal text-white">Copyright © Clothing brand. All rights reserved.</p>
         </div>
     </footer> --}}
+    {{-- Footer End --}}
 
     <script>
         const buttonToggle = document.querySelector('.buttonToggle');
