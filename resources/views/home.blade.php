@@ -189,11 +189,11 @@
         </section>
         <section class="mx-auto mt-8 grid grid-cols-2 gap-x-4 gap-y-6 px-4 md:grid-cols-3 md:px-18 lg:grid-cols-4">
             <div class="grid content-start gap-y-5">
-                <div class="bg-card relative flex h-76 w-full items-center justify-center rounded-2xl md:h-85">
+                <div class="bg-card relative flex h-68 w-full items-center justify-center rounded-2xl md:h-85">
                     <img
                         src="/images/Classic Cotton T-Shirt.webp"
                         alt="Product 1"
-                        class="h-64 w-56 object-scale-down md:h-72"
+                        class="h-60 w-56 object-scale-down md:h-72"
                     />
                     <div class="absolute flex w-full justify-end self-start pt-3 pr-3">
                         <div class="border-primary grid h-6 w-6 place-items-center rounded-4xl border">
@@ -227,11 +227,11 @@
                 </div>
             </div>
             <div class="grid content-start gap-y-5">
-                <div class="bg-card relative flex h-76 w-full items-center justify-center rounded-2xl md:h-85">
+                <div class="bg-card relative flex h-68 w-full items-center justify-center rounded-2xl md:h-85">
                     <img
                         src="/images/Minimalis T-Shirt.webp"
                         alt="Product 1"
-                        class="h-64 w-56 object-scale-down md:h-72"
+                        class="h-60 w-56 object-scale-down md:h-72"
                     />
                     <div class="absolute flex w-full justify-end self-start pt-3 pr-3">
                         <div class="border-primary grid h-6 w-6 place-items-center rounded-4xl border">
@@ -265,11 +265,11 @@
                 </div>
             </div>
             <div class="grid content-start gap-y-5">
-                <div class="bg-card relative flex h-76 w-full items-center justify-center rounded-2xl md:h-85">
+                <div class="bg-card relative flex h-68 w-full items-center justify-center rounded-2xl md:h-85">
                     <img
                         src="/images/Urban Street T-Shirt.webp"
                         alt="Product 1"
-                        class="h-64 w-56 object-scale-down md:h-72"
+                        class="h-60 w-56 object-scale-down md:h-72"
                     />
                     <div class="absolute flex w-full justify-end self-start pt-3 pr-3">
                         <div class="border-primary grid h-6 w-6 place-items-center rounded-4xl border">
@@ -303,11 +303,11 @@
                 </div>
             </div>
             <div class="grid content-start gap-y-5">
-                <div class="bg-card relative flex h-76 w-full items-center justify-center rounded-2xl md:h-85">
+                <div class="bg-card relative flex h-68 w-full items-center justify-center rounded-2xl md:h-85">
                     <img
                         src="/images/Modern Bomber Jacket.webp"
                         alt="Product 1"
-                        class="h-64 w-56 object-scale-down md:h-72"
+                        class="h-60 w-56 object-scale-down md:h-72"
                     />
                     <div class="absolute flex w-full justify-end self-start pt-3 pr-3">
                         <div class="border-primary grid h-6 w-6 place-items-center rounded-4xl border">
@@ -341,11 +341,11 @@
                 </div>
             </div>
             <div class="grid content-start gap-y-5">
-                <div class="bg-card relative flex h-76 w-full items-center justify-center rounded-2xl md:h-85">
+                <div class="bg-card relative flex h-68 w-full items-center justify-center rounded-2xl md:h-85">
                     <img
                         src="/images/Casual Denim Jacket.webp"
                         alt="Product 1"
-                        class="h-64 w-56 object-scale-down md:h-72"
+                        class="h-60 w-56 object-scale-down md:h-72"
                     />
                     <div class="absolute flex w-full justify-end self-start pt-3 pr-3">
                         <div class="border-primary grid h-6 w-6 place-items-center rounded-4xl border">
@@ -379,11 +379,11 @@
                 </div>
             </div>
             <div class="grid content-start gap-y-5">
-                <div class="bg-card relative flex h-76 w-full items-center justify-center rounded-2xl md:h-85">
+                <div class="bg-card relative flex h-68 w-full items-center justify-center rounded-2xl md:h-85">
                     <img
                         src="/images/Slim Fit Blue Jeans.webp"
                         alt="Product 1"
-                        class="h-64 w-56 object-scale-down md:h-72"
+                        class="h-60 w-56 object-scale-down md:h-72"
                     />
                     <div class="absolute flex w-full justify-end self-start pt-3 pr-3">
                         <div class="border-primary grid h-6 w-6 place-items-center rounded-4xl border">
@@ -417,11 +417,11 @@
                 </div>
             </div>
             <div class="grid content-start gap-y-5">
-                <div class="bg-card relative flex h-76 w-full items-center justify-center rounded-2xl md:h-85">
+                <div class="bg-card relative flex h-68 w-full items-center justify-center rounded-2xl md:h-85">
                     <img
                         src="/images/Vintage Denim Jeans.webp"
                         alt="Product 1"
-                        class="h-64 w-56 object-scale-down md:h-72"
+                        class="h-60 w-56 object-scale-down md:h-72"
                     />
                     <div class="absolute flex w-full justify-end self-start pt-3 pr-3">
                         <div class="border-primary grid h-6 w-6 place-items-center rounded-4xl border">
@@ -455,11 +455,11 @@
                 </div>
             </div>
             <div class="grid content-start gap-y-5">
-                <div class="bg-card relative flex h-76 w-full items-center justify-center rounded-2xl md:h-85">
+                <div class="bg-card relative flex h-68 w-full items-center justify-center rounded-2xl md:h-85">
                     <img
                         src="/images/Classic Baseball Cap.webp"
                         alt="Product 1"
-                        class="h-64 w-56 object-scale-down md:h-72"
+                        class="h-60 w-56 object-scale-down md:h-72"
                     />
                     <div class="absolute flex w-full justify-end self-start pt-3 pr-3">
                         <div class="border-primary grid h-6 w-6 place-items-center rounded-4xl border">
@@ -493,36 +493,43 @@
                 </div>
             </div>
         </section>
-        {{-- Categories Product End --}}
-
-        {{-- <div class="mt-14 flex justify-center px-18">
+        <div class="mt-10 flex justify-center px-18 sm:mt-14">
             <button
-                class="font-poppins bg-primary cursor-pointer rounded-4xl px-8 py-3 text-base font-normal text-white"
+                class="font-poppins bg-primary cursor-pointer rounded-4xl px-5 py-3 text-xs font-normal text-white sm:px-8 sm:text-base"
             >
                 Load More
             </button>
-        </div> --}}
-        {{-- <div class="mt-30 px-18">
-            <div class="rounded-[20px] bg-[#CECBB8] px-18 py-9">
-                <div class="grid justify-items-start gap-y-8">
-                    <div class="grid w-89 gap-y-3">
-                        <div class="grid gap-y-2">
-                            <h4 class="font-poppins text-primary text-xl font-semibold">Limited Offers</h4>
-                            <h2 class="font-poppins text-primary text-4xl font-bold">Up to 50% Off</h2>
+        </div>
+        {{-- Categories Product End --}}
+
+        {{-- Promo Product --}}
+        <div class="mt-18 px-4 sm:mt-30 md:px-18">
+            <div class="rounded-lg bg-[#CECBB8] px-6 py-4 sm:rounded-2xl sm:py-7 md:px-6 md:py-9 lg:px-12">
+                <div class="grid justify-items-start gap-y-3 sm:gap-y-6 md:gap-y-8">
+                    <div class="grid w-48 gap-y-2 sm:w-76 sm:gap-y-3 md:w-89">
+                        <div class="grid gap-y-1 sm:gap-y-2">
+                            <h4 class="font-poppins text-primary text-sm font-semibold sm:text-lg md:text-xl">
+                                Limited Offers
+                            </h4>
+                            <h2 class="font-poppins text-primary text-xl font-bold sm:text-3xl md:text-4xl">
+                                Up to 50% Off
+                            </h2>
                         </div>
-                        <p class="font-poppins text-primary text-base font-normal">Upgrade your everyday style with premium clothing at special discounted price</p>
+                        <p class="font-poppins text-primary text-[8px] font-normal sm:text-sm md:text-base">Upgrade your everyday style with premium clothing at special discounted price</p>
                     </div>
                     <button
-                        class="font-poppins bg-primary cursor-pointer rounded-xl px-6 py-3 text-base font-normal text-white"
+                        class="font-poppins bg-primary cursor-pointer rounded-sm px-3 py-2 text-[8px] font-normal text-white sm:rounded-xl sm:px-5 sm:py-3 sm:text-sm md:px-6 md:text-base"
                     >
                         Shop Now
                     </button>
                 </div>
             </div>
-            <div class="-mt-75 flex h-75 items-end justify-end px-18">
-                <img src="/images/Image Discount.webp" alt="" class="w-57" />
+            <div class="-mt-75 flex h-75 items-end justify-end px-6 md:px-6 lg:px-12">
+                <img src="/images/Image Discount.webp" alt="" class="w-30 sm:w-48 md:w-56" />
             </div>
-        </div> --}}
+        </div>
+        {{-- Promo Product End --}}
+
         {{-- <div class="mt-30 px-18">
             <h2 class="font-poppins text-primary mb-3 text-4xl font-semibold">Customer Reviews</h2>
             <p class="font-poppins text-primary w-108 text-lg leading-7 font-normal">Our customer share their experiences with our clothing collection</p>
