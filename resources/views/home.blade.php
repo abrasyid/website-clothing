@@ -530,16 +530,21 @@
         </div>
         {{-- Promo Product End --}}
 
-        {{-- <div class="mt-30 px-18">
-            <h2 class="font-poppins text-primary mb-3 text-4xl font-semibold">Customer Reviews</h2>
-            <p class="font-poppins text-primary w-108 text-lg leading-7 font-normal">Our customer share their experiences with our clothing collection</p>
-        </div> --}}
-        {{-- <section class="mt-11 px-18">
-            <div class="grid grid-cols-3 gap-x-7">
-                <div class="rounded-[20px] border border-[#D9D9D9] px-10 py-10">
-                    <div class="grid gap-y-6">
-                        <div class="grid gap-y-3">
-                            <p class="font-poppins text-primary w-70 text-base leading-7 font-normal">I absolutely love the quality of the clothes. The fabric feels comfortable and the design looks exactly like the pictures.</p>
+        {{-- Customer Review --}}
+        <div class="mt-20 px-4 sm:mt-30 md:px-18">
+            <h2
+                class="font-poppins text-primary mb-1 text-xl font-semibold sm:text-[28px] md:text-[32px] lg:mb-3 lg:text-4xl"
+            >
+                Customer Reviews
+            </h2>
+            <p class="font-poppins text-primary w-90 text-sm font-normal sm:w-108 sm:text-base md:leading-6 lg:text-lg lg:leading-7">Our customer share their experiences with our clothing collection</p>
+        </div>
+        <section class="mt-9 px-4 sm:mt-11 md:px-18">
+            <div class="grid grid-cols-1 gap-x-6 gap-y-6 sm:grid-cols-2 lg:grid-cols-3">
+                <div class="rounded-[20px] border border-[#D9D9D9] px-6 py-6 md:px-8 md:py-8">
+                    <div class="grid gap-y-4 md:gap-y-6">
+                        <div class="grid gap-y-2 md:gap-y-3">
+                            <p class="font-poppins text-primary text-sm leading-6 font-normal sm:text-base sm:leading-7">I absolutely love the quality of the clothes. The fabric feels comfortable and the design looks exactly like the pictures.</p>
                             <div class="flex">
                                 @for ($i = 0; $i < 5; $i++)
                                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="-ml-1.25">
@@ -549,15 +554,19 @@
                             </div>
                         </div>
                         <div class="flex items-center gap-x-4">
-                            <img src="/images/Profil 1.webp" alt="" class="h-9 w-9 rounded-full object-cover" />
-                            <p class="font-poppins text-primary text-base font-normal">Emily Johnson</p>
+                            <img
+                                src="/images/Profil 1.webp"
+                                alt=""
+                                class="h-8 w-8 rounded-full object-cover sm:h-9 sm:w-9"
+                            />
+                            <p class="font-poppins text-primary text-sm font-normal sm:text-base">Emily Johnson</p>
                         </div>
                     </div>
                 </div>
-                <div class="rounded-[20px] border border-[#D9D9D9] px-10 py-10">
-                    <div class="grid gap-y-6">
-                        <div class="grid gap-y-3">
-                            <p class="font-poppins text-primary w-70 text-base leading-7 font-normal">I absolutely love the quality of the clothes. The fabric feels comfortable and the design looks exactly like the pictures.</p>
+                <div class="rounded-[20px] border border-[#D9D9D9] px-6 py-6 md:px-8 md:py-8">
+                    <div class="grid gap-y-4 md:gap-y-6">
+                        <div class="grid gap-y-2 md:gap-y-3">
+                            <p class="font-poppins text-primary text-sm leading-6 font-normal sm:text-base sm:leading-7">I absolutely love the quality of the clothes. The fabric feels comfortable and the design looks exactly like the pictures.</p>
                             <div class="flex">
                                 @for ($i = 0; $i < 5; $i++)
                                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="-ml-1.25">
@@ -567,15 +576,19 @@
                             </div>
                         </div>
                         <div class="flex items-center gap-x-4">
-                            <img src="/images/Profil 2.webp" alt="" class="h-9 w-9 rounded-full object-cover" />
-                            <p class="font-poppins text-primary text-base font-normal">Michael Brown</p>
+                            <img
+                                src="/images/Profil 2.webp"
+                                alt=""
+                                class="h-8 w-8 rounded-full object-cover sm:h-9 sm:w-9"
+                            />
+                            <p class="font-poppins text-primary text-sm font-normal sm:text-base">Michael Brown</p>
                         </div>
                     </div>
                 </div>
-                <div class="rounded-[20px] border border-[#D9D9D9] px-10 py-10">
-                    <div class="grid gap-y-6">
-                        <div class="grid gap-y-3">
-                            <p class="font-poppins text-primary w-70 text-base leading-7 font-normal">I absolutely love the quality of the clothes. The fabric feels comfortable and the design looks exactly like the pictures.</p>
+                <div class="rounded-[20px] border border-[#D9D9D9] px-6 py-6 md:px-8 md:py-8">
+                    <div class="grid gap-y-4 md:gap-y-6">
+                        <div class="grid gap-y-2 md:gap-y-3">
+                            <p class="font-poppins text-primary text-sm leading-6 font-normal sm:text-base sm:leading-7">I absolutely love the quality of the clothes. The fabric feels comfortable and the design looks exactly like the pictures.</p>
                             <div class="flex">
                                 @for ($i = 0; $i < 5; $i++)
                                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="-ml-1.25">
@@ -585,13 +598,19 @@
                             </div>
                         </div>
                         <div class="flex items-center gap-x-4">
-                            <img src="/images/Profil 3.webp" alt="" class="h-9 w-9 rounded-full object-cover" />
-                            <p class="font-poppins text-primary text-base font-normal">Daniel Wilson</p>
+                            <img
+                                src="/images/Profil 3.webp"
+                                alt=""
+                                class="h-8 w-8 rounded-full object-cover sm:h-9 sm:w-9"
+                            />
+                            <p class="font-poppins text-primary text-sm font-normal sm:text-base">Daniel Wilson</p>
                         </div>
                     </div>
                 </div>
             </div>
-        </section> --}}
+        </section>
+        {{-- Customer Review End --}}
+
         {{-- <div class="mt-40 justify-items-center px-18">
             <h2 class="font-poppins text-primary mb-3 text-4xl font-semibold">Frequently Asked Questions</h2>
             <p class="font-poppins text-primary w-174 text-center text-lg leading-7 font-normal">Find answer the most common questions about our products and services</p>
