@@ -135,7 +135,7 @@
         {{-- Categories Product --}}
         <div class="mt-20 justify-items-start px-4 sm:mt-25 sm:justify-items-center md:px-18">
             <h2
-                class="font-poppins text-primary mb-1 text-xl font-semibold sm:text-[28px] md:text-[32px] lg:mb-3 lg:text-4xl"
+                class="font-poppins text-primary mb-2 text-xl font-semibold sm:text-[28px] md:text-[32px] lg:mb-3 lg:text-4xl"
             >
                 Explore Our Categories
             </h2>
@@ -533,7 +533,7 @@
         {{-- Customer Review --}}
         <div class="mt-20 px-4 sm:mt-30 md:px-18">
             <h2
-                class="font-poppins text-primary mb-1 text-xl font-semibold sm:text-[28px] md:text-[32px] lg:mb-3 lg:text-4xl"
+                class="font-poppins text-primary mb-2 text-xl font-semibold sm:text-[28px] md:text-[32px] lg:mb-3 lg:text-4xl"
             >
                 Customer Reviews
             </h2>
@@ -611,53 +611,77 @@
         </section>
         {{-- Customer Review End --}}
 
-        {{-- <div class="mt-40 justify-items-center px-18">
-            <h2 class="font-poppins text-primary mb-3 text-4xl font-semibold">Frequently Asked Questions</h2>
-            <p class="font-poppins text-primary w-174 text-center text-lg leading-7 font-normal">Find answer the most common questions about our products and services</p>
-        </div> --}}
-        {{-- <div class="mt-10 grid justify-items-center gap-y-5">
-            <div class="w-236 rounded-[20px] bg-white px-11 py-6 shadow-[1px_2px_8px_0px_rgba(97,97,97,0.25)]">
-                <div class="flex justify-between">
-                    <h5 class="font-poppins text-primary text-lg font-medium">What sizes do you offer?</h5>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-                        <path fill="currentColor" d="M18 12.998h-5v5a1 1 0 0 1-2 0v-5H6a1 1 0 0 1 0-2h5v-5a1 1 0 0 1 2 0v5h5a1 1 0 0 1 0 2" />
+        {{-- FAQ --}}
+        <div class="mt-25 justify-items-start px-4 sm:mt-40 sm:justify-items-center md:px-18">
+            <h2
+                class="font-poppins text-primary mb-2 text-xl font-semibold sm:text-[28px] md:text-[32px] lg:mb-3 lg:text-4xl"
+            >
+                Frequently Asked Questions
+            </h2>
+            <p class="font-poppins text-primary text-start text-sm font-normal sm:w-174 sm:text-center sm:text-base md:leading-6 lg:text-lg lg:leading-7">Find answer the most common questions about our products and services</p>
+        </div>
+        <div class="mt-10 grid items-stretch gap-y-5 px-4 md:px-18 lg:justify-items-center">
+            <details
+                class="group [&amp;_summary::-webkit-details-marker]:hidden rounded-xl bg-white px-7 py-5 shadow-[1px_2px_8px_0px_rgba(97,97,97,0.25)] lg:w-236"
+            >
+                <summary class="flex items-center justify-between">
+                    <h5 class="font-poppins text-primary text-base font-medium lg:text-lg">What sizes do you offer?</h5>
+                    <svg class="size-5 shrink-0 transition-transform duration-300 group-open:-rotate-180" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
                     </svg>
-                </div>
-            </div>
-            <div class="w-236 rounded-[20px] bg-white px-11 py-6 shadow-[1px_2px_8px_0px_rgba(97,97,97,0.25)]">
-                <div class="mb-2 flex justify-between">
-                    <h5 class="font-poppins text-primary text-lg font-medium">How long does shipping take?</h5>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-                        <path fill="currentColor" d="M18 12.998H6a1 1 0 0 1 0-2h12a1 1 0 0 1 0 2" />
+                </summary>
+                <p class="font-poppins text-primary mt-3 text-sm leading-7 font-light lg:text-base">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla semper eget velit ut cursus. Ut pulvinar, odio in porttitor iaculis, augue magna lacinia turpis, in porttitor justo eros sit amet lectus.</p>
+            </details>
+            <details
+                class="group [&amp;_summary::-webkit-details-marker]:hidden rounded-xl px-7 py-5 shadow-[1px_2px_8px_0px_rgba(97,97,97,0.25)] lg:w-236"
+            >
+                <summary class="flex items-center justify-between">
+                    <h5 class="font-poppins text-primary text-base font-medium lg:text-lg">
+                        How long does shipping take?
+                    </h5>
+                    <svg class="size-5 shrink-0 transition-transform duration-300 group-open:-rotate-180" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
                     </svg>
-                </div>
-                <p class="font-poppins text-primary w-200 text-base leading-7 font-light">Shipping usually takes 3-7 business days depending on your location. Once your order has been shipped, you will receive a tracking number via email.</p>
-            </div>
-            <div class="w-236 rounded-[20px] bg-white px-11 py-6 shadow-[1px_2px_8px_0px_rgba(97,97,97,0.25)]">
-                <div class="flex justify-between">
-                    <h5 class="font-poppins text-primary text-lg font-medium">Can I return or exchange an item?</h5>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-                        <path fill="currentColor" d="M18 12.998h-5v5a1 1 0 0 1-2 0v-5H6a1 1 0 0 1 0-2h5v-5a1 1 0 0 1 2 0v5h5a1 1 0 0 1 0 2" />
+                </summary>
+                <p class="font-poppins text-primary mt-3 text-sm leading-7 font-light lg:text-base">Shipping usually takes 3-7 business days depending on your location. Once your order has been shipped, you will receive a tracking number via email.</p>
+            </details>
+            <details
+                class="group [&amp;_summary::-webkit-details-marker]:hidden rounded-xl bg-white px-7 py-5 shadow-[1px_2px_8px_0px_rgba(97,97,97,0.25)] lg:w-236"
+            >
+                <summary class="flex items-center justify-between">
+                    <h5 class="font-poppins text-primary text-base font-medium lg:text-lg">
+                        Can I return or exchange an item?
+                    </h5>
+                    <svg class="size-5 shrink-0 transition-transform duration-300 group-open:-rotate-180" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
                     </svg>
-                </div>
-            </div>
-            <div class="w-236 rounded-[20px] bg-white px-11 py-6 shadow-[1px_2px_8px_0px_rgba(97,97,97,0.25)]">
-                <div class="flex justify-between">
-                    <h5 class="font-poppins text-primary text-lg font-medium">What payment method do you accept?</h5>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-                        <path fill="currentColor" d="M18 12.998h-5v5a1 1 0 0 1-2 0v-5H6a1 1 0 0 1 0-2h5v-5a1 1 0 0 1 2 0v5h5a1 1 0 0 1 0 2" />
+                </summary>
+                <p class="font-poppins text-primary mt-3 text-sm leading-7 font-light lg:text-base">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla semper eget velit ut cursus. Ut pulvinar, odio in porttitor iaculis, augue magna lacinia turpis, in porttitor justo eros sit amet lectus.</p>
+            </details>
+            <details
+                class="group [&amp;_summary::-webkit-details-marker]:hidden rounded-xl bg-white px-7 py-5 shadow-[1px_2px_8px_0px_rgba(97,97,97,0.25)] lg:w-236"
+            >
+                <summary class="flex items-center justify-between">
+                    <h5 class="font-poppins text-primary text-base font-medium lg:text-lg">
+                        What payment method do you accept?
+                    </h5>
+                    <svg class="size-5 shrink-0 transition-transform duration-300 group-open:-rotate-180" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
                     </svg>
-                </div>
-            </div>
-            <div class="w-236 rounded-[20px] bg-white px-11 py-6 shadow-[1px_2px_8px_0px_rgba(97,97,97,0.25)]">
-                <div class="flex justify-between">
-                    <h5 class="font-poppins text-primary text-lg font-medium">How do I track my order?</h5>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-                        <path fill="currentColor" d="M18 12.998h-5v5a1 1 0 0 1-2 0v-5H6a1 1 0 0 1 0-2h5v-5a1 1 0 0 1 2 0v5h5a1 1 0 0 1 0 2" />
+                </summary>
+                <p class="font-poppins text-primary mt-3 text-sm leading-7 font-light lg:text-base">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla semper eget velit ut cursus. Ut pulvinar, odio in porttitor iaculis, augue magna lacinia turpis, in porttitor justo eros sit amet lectus.</p>
+            </details>
+            <details class="rounded-xl bg-white px-7 py-5 shadow-[1px_2px_8px_0px_rgba(97,97,97,0.25)] lg:w-236">
+                <summary class="flex items-center justify-between">
+                    <h5 class="font-poppins text-primary text-base font-medium lg:text-lg">How do I track my order?</h5>
+                    <svg class="size-5 shrink-0 transition-transform duration-300 group-open:-rotate-180" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
                     </svg>
-                </div>
-            </div>
-        </div> --}}
+                </summary>
+                <p class="font-poppins text-primary mt-3 text-sm leading-7 font-light lg:text-base">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla semper eget velit ut cursus. Ut pulvinar, odio in porttitor iaculis, augue magna lacinia turpis, in porttitor justo eros sit amet lectus.</p>
+            </details>
+        </div>
+        {{-- FAQ End --}}
     </main>
     {{-- Main End --}}
 
